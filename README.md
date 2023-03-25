@@ -112,6 +112,22 @@ If you are using from a Query build, may not be needed.
     composer require symfony/serializer-pack
 ```
 
+## Editor and Recommend extensions
+
+- Editor: [VS Code](https://code.visualstudio.com) (By Microsoft)
+
+- [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client) (By Ben Mewburn)
+
+- [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver) (By Mehedi Hassan)
+
+- [PHP Awesome Snippets](https://marketplace.visualstudio.com/items?itemName=hakcorp.php-awesome-snippets) (By HakCorp)
+
+- [Twig Pack](https://marketplace.visualstudio.com/items?itemName=bajdzis.vscode-twig-pack) (by Bajdzis)
+
+- To better developement it is taked advantages of this two wonderfull vscode extensions:
+  - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) (By Microsoft): to manage docker containers in vs code
+  - [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) (By Microsoft): to use vscode inside of the container.
+
 ## Setup (using docker without compose)
 
 php image: read the Dockerfile
