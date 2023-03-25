@@ -111,3 +111,19 @@ If you are using from a Query build, may not be needed.
 ```bash
     composer require symfony/serializer-pack
 ```
+
+## Setup (using docker without compose)
+
+php image: read the Dockerfile
+
+mysql image in terminal:
+
+```bash
+
+docker run --name db_sf \
+     -e MYSQL_ROOT_PASSWORD=[your pwd] \
+     -e MYSQL_DATABASE=sf6 \
+     -e MYSQL_USER=[youur user] \
+     -e MYSQL_PASSWORD=[your password] \
+     -dp 3306:3306 mysql;
+```
