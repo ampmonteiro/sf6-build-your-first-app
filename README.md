@@ -10,6 +10,10 @@ with similar struture or same idea of:
 
 on my repo.
 
+### Image:
+
+![blog home](./blog_home.png)
+
 ### Docs:
 
 https://symfony.com/doc/current/
